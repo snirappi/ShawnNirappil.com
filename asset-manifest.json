@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/snirappi.github.io/static/css/main.34e6069f.chunk.css",
+    "main.js": "/snirappi.github.io/static/js/main.ad774c62.chunk.js",
+    "main.js.map": "/snirappi.github.io/static/js/main.ad774c62.chunk.js.map",
+    "runtime-main.js": "/snirappi.github.io/static/js/runtime-main.3fa1784c.js",
+    "runtime-main.js.map": "/snirappi.github.io/static/js/runtime-main.3fa1784c.js.map",
+    "static/js/2.20aa93e2.chunk.js": "/snirappi.github.io/static/js/2.20aa93e2.chunk.js",
+    "static/js/2.20aa93e2.chunk.js.map": "/snirappi.github.io/static/js/2.20aa93e2.chunk.js.map",
+    "index.html": "/snirappi.github.io/index.html",
+    "precache-manifest.56e2241a23faf987eb6bdbb0d16b7f82.js": "/snirappi.github.io/precache-manifest.56e2241a23faf987eb6bdbb0d16b7f82.js",
+    "service-worker.js": "/snirappi.github.io/service-worker.js",
+    "static/css/main.34e6069f.chunk.css.map": "/snirappi.github.io/static/css/main.34e6069f.chunk.css.map",
+    "static/js/2.20aa93e2.chunk.js.LICENSE.txt": "/snirappi.github.io/static/js/2.20aa93e2.chunk.js.LICENSE.txt",
+    "static/media/ShawnNirappilResume.pdf": "/snirappi.github.io/static/media/ShawnNirappilResume.856b8414.pdf",
+    "static/media/albums.jpg": "/snirappi.github.io/static/media/albums.6ffd298e.jpg",
+    "static/media/face.jpg": "/snirappi.github.io/static/media/face.e2e32665.jpg",
+    "static/media/lastfm-filled.svg": "/snirappi.github.io/static/media/lastfm-filled.e711b7f8.svg",
+    "static/media/lastfm.svg": "/snirappi.github.io/static/media/lastfm.1757505f.svg",
+    "static/media/linkedin-filled.svg": "/snirappi.github.io/static/media/linkedin-filled.838f6035.svg",
+    "static/media/linkedin.svg": "/snirappi.github.io/static/media/linkedin.c1f220ee.svg",
+    "static/media/soundcloud-filled.svg": "/snirappi.github.io/static/media/soundcloud-filled.fe674518.svg",
+    "static/media/soundcloud.svg": "/snirappi.github.io/static/media/soundcloud.c1e8aa70.svg",
+    "static/media/twitter-filled.svg": "/snirappi.github.io/static/media/twitter-filled.c95cbd88.svg",
+    "static/media/twitter.svg": "/snirappi.github.io/static/media/twitter.111765af.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3fa1784c.js",
+    "static/js/2.20aa93e2.chunk.js",
+    "static/css/main.34e6069f.chunk.css",
+    "static/js/main.ad774c62.chunk.js"
+  ]
+}
