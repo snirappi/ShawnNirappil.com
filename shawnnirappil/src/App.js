@@ -1,4 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import Home from './components/home';
+import Music from './components/music';
+import Resume from './components/resume';
+
 import twitterIcon from './icons/twitter.svg';
 import twitterIconFilled from './icons/twitter-filled.svg';
 import soundCloudIcon from './icons/soundcloud.svg';
@@ -10,44 +15,54 @@ import linkedInIconFilled from './icons/linkedin-filled.svg';
 
 import './App.css';
 
-function App() {
-  return (
-
-    <div className="Overview">
-      <h1>Shawn Nirappil</h1>
-      <div class="Icon-section">
-        <div class="Icon-box">
-          <a href="https://twitter.com/ShawnNirappil">
-            <img class="Link-icon" src={twitterIcon} />
-            <img class="Hover-icon" src={twitterIconFilled} />
-          </a>
+class App extends Component {
+  render() {
+    return (
+      <Router>
+        <div class="Overview">
+          <header class="Header">
+            <h2 class="Header-title"><Link to={'/music'} className="nav-link">Music</Link></h2>
+            <h1 class="Header-title"><Link to={'/'} className="nav-link"> Shawn Nirappil </Link></h1>
+            <h2 class="Header-title"><Link to={'/resume'} className="nav-link">Resume</Link></h2>
+          </header>
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route path='/music' component={Music} />
+            <Route path='/resume' component={Resume} />
+          </Switch>
+          <footer class="Footer">
+            <div class="Icon-section">
+              <div class="Icon-box">
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/ShawnNirappil">
+                  <img class="Link-icon" src={twitterIcon} alt="Twitter Icon"/>
+                  <img class="Hover-icon" src={twitterIconFilled} alt="Twitter Icon"/>
+                </a>
+              </div>
+              <div class="Icon-box">
+                <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/nappysama">
+                  <img class="Link-icon" src={soundCloudIcon} alt="Soundcloud Icon"/>
+                  <img class="Hover-icon" src={soundCloudIconFilled} alt="Soundcloud Icon"/>
+                </a>
+              </div>
+              <div class="Icon-box">
+                <a target="_blank" rel="noopener noreferrer" href="https://last.fm/user/beat80">
+                  <img class="Link-icon" src={lastFmIcon} alt="Last.fm Icon"/>
+                  <img class="Hover-icon" src={lastFmIconFilled} alt="Last.fm Icon"/>
+                </a>
+              </div>
+              <div class="Icon-box">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/shawn-nirappil-81b72214a/">
+                  <img class="Link-icon" src={linkedInIcon} alt="LinkedIn Icon"/>
+                  <img class="Hover-icon" src={linkedInIconFilled} alt="LinkedIn Icon"/>
+                </a>
+              </div>
+            </div>
+            Icons made by <a target="_blank" rel="noopener noreferrer" href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a target="_blank" rel="noopener noreferrer" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          </footer>
         </div>
-        <div class="Icon-box">
-          <a href="https://soundcloud.com/nappysama">
-            <img class="Link-icon" src={soundCloudIcon} />
-            <img class="Hover-icon" src={soundCloudIconFilled} />
-          </a>
-        </div>
-        <div class="Icon-box">
-          <a href="https://last.fm/user/beat80">
-            <img class="Link-icon" src={lastFmIcon} />
-            <img class="Hover-icon" src={lastFmIconFilled} />
-          </a>
-        </div>
-        <div class="Icon-box">
-          <a href="https://www.linkedin.com/in/shawn-nirappil-81b72214a/">
-            <img class="Link-icon" src={linkedInIcon} />
-            <img class="Hover-icon" src={linkedInIconFilled} />
-          </a>
-        </div>
-      </div>
-      <footer>
-        Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-      </footer>
-    </div>
-
-
-  );
+      </Router>
+    );
+  }
 }
 
 export default App;
