@@ -50,27 +50,21 @@ a:visited {
   clear: both;
 }
 
-.Header-title{
-  display: inline;
-  margin: 50px;
-}
-
 .Albums {
   display: inline;
 }
-.Icon-box {
+
+.Div-box {
+  padding: 2%;
+}
+
+.Face-img {
+  border-radius: 50%;
+}
+
+.Header-title{
   display: inline;
-}
-
-.Icon-box .Hover-icon {
-  display: none;
-}
-
-.Link-icon {
-  width: 100px;
-  height: 100px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 50px;
 }
 
 .Hover-icon {
@@ -78,6 +72,14 @@ a:visited {
   height: 100px;
   margin-left: 10px;
   margin-right: 10px;  
+}
+
+.Icon-box {
+  display: inline;
+}
+
+.Icon-box .Hover-icon {
+  display: none;
 }
 
 .Icon-box:hover .Hover-icon{
@@ -88,8 +90,11 @@ a:visited {
   display: none;
 }
 
-.Div-box {
-  padding: 2%;
+.Link-icon {
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .Resume-box {

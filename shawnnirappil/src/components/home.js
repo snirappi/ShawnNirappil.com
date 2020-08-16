@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import Face from '../icons/face.jpg';
+
+import '../App.css';
 
 class Home extends Component {
     render() {
         return (
             <div class="Div-box">
-                <p>Home</p>
+                <img class="Face-img" src={Face} alt="My Face"/>
             </div>
         );
     }
