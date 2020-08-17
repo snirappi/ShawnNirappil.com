@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Home from './components/home';
 import Music from './components/music';
 import Resume from './components/resume';
@@ -18,7 +18,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <Router >
+      <Router basename='/'>
         <div class="Overview">
           <header class="Header">
             <h2 class="Header-title"><Link to={'/music'} className="nav-link">Music</Link></h2>
