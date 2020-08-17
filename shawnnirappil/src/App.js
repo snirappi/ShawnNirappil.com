@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { HashRouter, Switch, Route, Link } from 'react-router-dom';
 import Home from './components/home';
 import Music from './components/music';
 import Resume from './components/resume';
@@ -18,12 +18,12 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <Router basename='/'>
+      <HashRouter basename='/'>
         <div class="Overview">
           <header class="Header">
-            <h2 class="Header-title"><Link to={'/music'} className="nav-link">Music</Link></h2>
-            <h1 class="Header-title"><Link to={'/'} className="nav-link"> Shawn Nirappil </Link></h1>
-            <h2 class="Header-title"><Link to={'/resume'} className="nav-link">Resume</Link></h2>
+            <h2 class="Header-title"><Link to={'/music'} >Music</Link></h2>
+            <h1 class="Header-title"><Link to={'/'} > Shawn Nirappil </Link></h1>
+            <h2 class="Header-title"><Link to={'/resume'} >Resume</Link></h2>
           </header>
           <Switch>
             <Route exact path='/' component={Home} />
@@ -60,7 +60,7 @@ class App extends Component {
             <p class="Credits">Icons made by <a target="_blank" rel="noopener noreferrer" href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a target="_blank" rel="noopener noreferrer" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
           </footer>
         </div>
-      </Router>
+      </HashRouter>
     );
   }
 }
