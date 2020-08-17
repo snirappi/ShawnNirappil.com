@@ -8,6 +8,8 @@ class Home extends Component {
         return (
             <div class="Div-box">
                 <img class="Face-img" src={Face} alt="My Face"/>
+                <h3>About Me</h3>
+                <p>Full Stack Engineer | I &#9829; Music | Chicago</p>
             </div>
         );
     }

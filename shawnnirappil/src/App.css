@@ -54,6 +54,18 @@ a:visited {
   display: inline;
 }
 
+.Credits {
+  display: none;
+}
+
+.Credits:hover {
+  display: inline;
+}
+
+.Dance-section{
+  display: inline;
+}
+
 .Div-box {
   padding: 2%;
 }
@@ -68,10 +80,10 @@ a:visited {
 }
 
 .Hover-icon {
-  width: 100px;
-  height: 100px;
-  margin-left: 10px;
-  margin-right: 10px;  
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+  margin-right: 15px;  
 }
 
 .Icon-box {
@@ -91,10 +103,10 @@ a:visited {
 }
 
 .Link-icon {
-  width: 100px;
-  height: 100px;
-  margin-left: 10px;
-  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .Resume-box {

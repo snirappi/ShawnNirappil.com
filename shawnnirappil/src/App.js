@@ -18,7 +18,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router >
         <div class="Overview">
           <header class="Header">
             <h2 class="Header-title"><Link to={'/music'} className="nav-link">Music</Link></h2>
@@ -57,7 +57,7 @@ class App extends Component {
                 </a>
               </div>
             </div>
-            Icons made by <a target="_blank" rel="noopener noreferrer" href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a target="_blank" rel="noopener noreferrer" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+            <p class="Credits">Icons made by <a target="_blank" rel="noopener noreferrer" href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a target="_blank" rel="noopener noreferrer" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
           </footer>
         </div>
       </Router>
