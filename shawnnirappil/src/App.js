@@ -20,11 +20,12 @@ class App extends Component {
     return (
       <HashRouter basename='/'>
         <div class="Overview">
-          <header class="Header">
+          <header class="Header">            
             <h2 class="Header-title"><Link to={'/music'} >Music</Link></h2>
             <h1 class="Header-title"><Link to={'/'} > Shawn Nirappil </Link></h1>
             <h2 class="Header-title"><Link to={'/resume'} >Resume</Link></h2>
-          </header>
+            <div class="Header-border"/>
+          </header>          
           <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/music' component={Music} />

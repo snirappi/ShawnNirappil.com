@@ -40,7 +40,9 @@ class Home extends Component {
                 <img class="Face-img" src={Face} alt="My Face"/>
                 <h3>About Me</h3>
                 <p>Full Stack Engineer | I &#9829; Music | Chicago</p>
-                <i class="Tweet">{this.randomTweet(this.tweets)}</i>
+                <div class="Tweet-box">
+                    <p class="Tweet">{this.randomTweet(this.tweets)}</p>
+                </div>
             </div>
         );
     }
