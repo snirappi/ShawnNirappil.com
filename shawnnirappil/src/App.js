@@ -3,6 +3,7 @@ import { HashRouter, Switch, Route, Link } from 'react-router-dom';
 import Home from './components/home';
 import Music from './components/music';
 import Resume from './components/resume';
+import Blog from './components/blog';
 
 import twitterIcon from './icons/twitter.svg';
 import twitterIconFilled from './icons/twitter-filled.svg';
@@ -20,14 +21,16 @@ class App extends Component {
     return (
       <HashRouter basename='/'>
         <div class="Overview">
-          <header class="Header">            
+          <header class="Header">
+            <h1 class="Header-title"><Link to={'/'} >Shawn Nirappil</Link></h1>
+            <h2 class="Header-title"><Link to={'/blog'} >Blog</Link></h2>
             <h2 class="Header-title"><Link to={'/music'} >Music</Link></h2>
-            <h1 class="Header-title"><Link to={'/'} > Shawn Nirappil </Link></h1>
             <h2 class="Header-title"><Link to={'/resume'} >Resume</Link></h2>
-            <div class="Header-border"/>
-          </header>          
+            <div class="Header-border" />
+          </header>
           <Switch>
             <Route exact path='/' component={Home} />
+            <Route path='/blog' component={Blog} />
             <Route path='/music' component={Music} />
             <Route path='/resume' component={Resume} />
           </Switch>
@@ -35,26 +38,26 @@ class App extends Component {
             <div class="Icon-section">
               <div class="Icon-box">
                 <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/ShawnNirappil">
-                  <img class="Link-icon" src={twitterIcon} alt="Twitter Icon"/>
-                  <img class="Hover-icon" src={twitterIconFilled} alt="Twitter Icon"/>
+                  <img class="Link-icon" src={twitterIcon} alt="Twitter Icon" />
+                  <img class="Hover-icon" src={twitterIconFilled} alt="Twitter Icon" />
                 </a>
               </div>
               <div class="Icon-box">
                 <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/nappysama">
-                  <img class="Link-icon" src={soundCloudIcon} alt="Soundcloud Icon"/>
-                  <img class="Hover-icon" src={soundCloudIconFilled} alt="Soundcloud Icon"/>
+                  <img class="Link-icon" src={soundCloudIcon} alt="Soundcloud Icon" />
+                  <img class="Hover-icon" src={soundCloudIconFilled} alt="Soundcloud Icon" />
                 </a>
               </div>
               <div class="Icon-box">
                 <a target="_blank" rel="noopener noreferrer" href="https://last.fm/user/beat80">
-                  <img class="Link-icon" src={lastFmIcon} alt="Last.fm Icon"/>
-                  <img class="Hover-icon" src={lastFmIconFilled} alt="Last.fm Icon"/>
+                  <img class="Link-icon" src={lastFmIcon} alt="Last.fm Icon" />
+                  <img class="Hover-icon" src={lastFmIconFilled} alt="Last.fm Icon" />
                 </a>
               </div>
               <div class="Icon-box">
                 <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/shawn-nirappil-81b72214a/">
-                  <img class="Link-icon" src={linkedInIcon} alt="LinkedIn Icon"/>
-                  <img class="Hover-icon" src={linkedInIconFilled} alt="LinkedIn Icon"/>
+                  <img class="Link-icon" src={linkedInIcon} alt="LinkedIn Icon" />
+                  <img class="Hover-icon" src={linkedInIconFilled} alt="LinkedIn Icon" />
                 </a>
               </div>
             </div>
