@@ -8,9 +8,8 @@ class Music extends Component {
             <div class="Div-box">
                 <div>
                     <h3>My Tracks</h3>
-                    <iframe class="Soundcloud" title="Imperial Track" width="73%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/820091884&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><br/>
-                    <iframe class="Soundcloud" title="Lifetime Track" width="73%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/808496344&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-                </div>            
+                    <iframe title="tracks" height="450" width="70%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1130901286&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                </div>
                 <div class="Albums">
                     <h3>Albums I've Been Listening To</h3>
                     <img class="Albums" src={albumsImage} alt="Albums" />
