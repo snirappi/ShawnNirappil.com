@@ -11,8 +11,8 @@ class Music extends Component {
                     <iframe title="tracks" height="450" width="70%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1130901286&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
                 </div>
                 <div class="Albums">
-                    <h3>Albums I've Been Listening To</h3>
-                    <img class="Albums" src={albumsImage} alt="Albums" />
+                    <h3>Albums I've Been Listening To</h3>                    
+                    <img class="Albums Border-box" src={albumsImage} alt="Albums" />
                 </div>
                 <div class="Dance-section">
                     <h3>Dance Music</h3>
