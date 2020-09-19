@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/ShawnNirappil.com/static/css/main.a1113d85.chunk.css",
-    "main.js": "/ShawnNirappil.com/static/js/main.12a05da8.chunk.js",
-    "main.js.map": "/ShawnNirappil.com/static/js/main.12a05da8.chunk.js.map",
+    "main.css": "/ShawnNirappil.com/static/css/main.b73344fb.chunk.css",
+    "main.js": "/ShawnNirappil.com/static/js/main.3c8682d0.chunk.js",
+    "main.js.map": "/ShawnNirappil.com/static/js/main.3c8682d0.chunk.js.map",
     "runtime-main.js": "/ShawnNirappil.com/static/js/runtime-main.79a23ebc.js",
     "runtime-main.js.map": "/ShawnNirappil.com/static/js/runtime-main.79a23ebc.js.map",
-    "static/js/2.24e9064d.chunk.js": "/ShawnNirappil.com/static/js/2.24e9064d.chunk.js",
-    "static/js/2.24e9064d.chunk.js.map": "/ShawnNirappil.com/static/js/2.24e9064d.chunk.js.map",
+    "static/js/2.def387c4.chunk.js": "/ShawnNirappil.com/static/js/2.def387c4.chunk.js",
+    "static/js/2.def387c4.chunk.js.map": "/ShawnNirappil.com/static/js/2.def387c4.chunk.js.map",
     "index.html": "/ShawnNirappil.com/index.html",
-    "precache-manifest.534238bee0912b9321170285a5b7ae38.js": "/ShawnNirappil.com/precache-manifest.534238bee0912b9321170285a5b7ae38.js",
+    "precache-manifest.ab1557f5058f5b5f0a9c226fda87ac7d.js": "/ShawnNirappil.com/precache-manifest.ab1557f5058f5b5f0a9c226fda87ac7d.js",
     "service-worker.js": "/ShawnNirappil.com/service-worker.js",
-    "static/css/main.a1113d85.chunk.css.map": "/ShawnNirappil.com/static/css/main.a1113d85.chunk.css.map",
-    "static/js/2.24e9064d.chunk.js.LICENSE.txt": "/ShawnNirappil.com/static/js/2.24e9064d.chunk.js.LICENSE.txt",
+    "static/css/main.b73344fb.chunk.css.map": "/ShawnNirappil.com/static/css/main.b73344fb.chunk.css.map",
+    "static/js/2.def387c4.chunk.js.LICENSE.txt": "/ShawnNirappil.com/static/js/2.def387c4.chunk.js.LICENSE.txt",
     "static/media/ShawnNirappilResume.pdf": "/ShawnNirappil.com/static/media/ShawnNirappilResume.856b8414.pdf",
-    "static/media/albums.jpg": "/ShawnNirappil.com/static/media/albums.8c71b154.jpg",
+    "static/media/albums.jpg": "/ShawnNirappil.com/static/media/albums.f6eff1a4.jpg",
     "static/media/face.jpg": "/ShawnNirappil.com/static/media/face.0b0a72b7.jpg",
+    "static/media/github-filled.svg": "/ShawnNirappil.com/static/media/github-filled.c5c8562b.svg",
+    "static/media/github.svg": "/ShawnNirappil.com/static/media/github.1516eddc.svg",
     "static/media/lastfm-filled.svg": "/ShawnNirappil.com/static/media/lastfm-filled.e711b7f8.svg",
     "static/media/lastfm.svg": "/ShawnNirappil.com/static/media/lastfm.1757505f.svg",
     "static/media/linkedin-filled.svg": "/ShawnNirappil.com/static/media/linkedin-filled.838f6035.svg",
@@ -26,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.79a23ebc.js",
-    "static/js/2.24e9064d.chunk.js",
-    "static/css/main.a1113d85.chunk.css",
-    "static/js/main.12a05da8.chunk.js"
+    "static/js/2.def387c4.chunk.js",
+    "static/css/main.b73344fb.chunk.css",
+    "static/js/main.3c8682d0.chunk.js"
   ]
 }

@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9b5b8751bf5931012a4d44a0ba874a4e",
+    "revision": "d1cccd8d52bdb4afff3312c9fd786566",
     "url": "/ShawnNirappil.com/index.html"
   },
   {
-    "revision": "cd97ab0709f97ad6634c",
-    "url": "/ShawnNirappil.com/static/css/main.a1113d85.chunk.css"
+    "revision": "c7833148a0aa7277af4d",
+    "url": "/ShawnNirappil.com/static/css/main.b73344fb.chunk.css"
   },
   {
-    "revision": "6b6a32334e4c2ecc01ca",
-    "url": "/ShawnNirappil.com/static/js/2.24e9064d.chunk.js"
+    "revision": "76f7f1908d4eb2f42ab2",
+    "url": "/ShawnNirappil.com/static/js/2.def387c4.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/ShawnNirappil.com/static/js/2.24e9064d.chunk.js.LICENSE.txt"
+    "url": "/ShawnNirappil.com/static/js/2.def387c4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cd97ab0709f97ad6634c",
-    "url": "/ShawnNirappil.com/static/js/main.12a05da8.chunk.js"
+    "revision": "c7833148a0aa7277af4d",
+    "url": "/ShawnNirappil.com/static/js/main.3c8682d0.chunk.js"
   },
   {
     "revision": "95e03e3582451951d07f",
@@ -28,12 +28,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ShawnNirappil.com/static/media/ShawnNirappilResume.856b8414.pdf"
   },
   {
-    "revision": "8c71b154c18bca2600c84bfdba82cbeb",
-    "url": "/ShawnNirappil.com/static/media/albums.8c71b154.jpg"
+    "revision": "f6eff1a438cd31034257a04255db014d",
+    "url": "/ShawnNirappil.com/static/media/albums.f6eff1a4.jpg"
   },
   {
     "revision": "0b0a72b7dae474ec18e7a9e9fd2fd96c",
     "url": "/ShawnNirappil.com/static/media/face.0b0a72b7.jpg"
+  },
+  {
+    "revision": "c5c8562b45928498b8c8d937a4e12796",
+    "url": "/ShawnNirappil.com/static/media/github-filled.c5c8562b.svg"
+  },
+  {
+    "revision": "1516eddc6fa681043c690056d3006bd0",
+    "url": "/ShawnNirappil.com/static/media/github.1516eddc.svg"
   },
   {
     "revision": "e711b7f87e0dd18c65aa04caaaabf085",
