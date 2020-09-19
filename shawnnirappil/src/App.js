@@ -5,6 +5,8 @@ import Music from './components/music';
 import Resume from './components/resume';
 import Blog from './components/blog';
 
+import githubIcon from './icons/github.svg';
+import githubIconFilled from './icons/github-filled.svg';
 import twitterIcon from './icons/twitter.svg';
 import twitterIconFilled from './icons/twitter-filled.svg';
 import soundCloudIcon from './icons/soundcloud.svg';
@@ -36,6 +38,12 @@ class App extends Component {
           </Switch>
           <footer class="Footer">
             <div class="Icon-section">
+            <div class="Icon-box">
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/snirappi">
+                  <img class="Link-icon" src={githubIcon} alt="Github Icon" />
+                  <img class="Hover-icon" src={githubIconFilled} alt="Github Icon" />
+                </a>
+              </div>
               <div class="Icon-box">
                 <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/ShawnNirappil">
                   <img class="Link-icon" src={twitterIcon} alt="Twitter Icon" />

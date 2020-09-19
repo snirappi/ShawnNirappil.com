@@ -17,7 +17,6 @@ class Blog extends Component {
             )
             .then(res => {
                 this.setState({ posts: res.data.posts });
-                console.log(this.state.posts);
             })
             .catch(error => console.log(error));
     }
