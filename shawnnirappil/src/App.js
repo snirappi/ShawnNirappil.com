@@ -38,12 +38,6 @@ class App extends Component {
           </Switch>
           <footer class="Footer">
             <div class="Icon-section">
-            <div class="Icon-box">
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/snirappi">
-                  <img class="Link-icon" src={githubIcon} alt="Github Icon" />
-                  <img class="Hover-icon" src={githubIconFilled} alt="Github Icon" />
-                </a>
-              </div>
               <div class="Icon-box">
                 <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/ShawnNirappil">
                   <img class="Link-icon" src={twitterIcon} alt="Twitter Icon" />
@@ -56,6 +50,12 @@ class App extends Component {
                   <img class="Hover-icon" src={soundCloudIconFilled} alt="Soundcloud Icon" />
                 </a>
               </div>
+              <div class="Icon-box">
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/snirappi">
+                  <img class="Link-icon" src={githubIcon} alt="Github Icon" />
+                  <img class="Hover-icon" src={githubIconFilled} alt="Github Icon" />
+                </a>
+              </div>              
               <div class="Icon-box">
                 <a target="_blank" rel="noopener noreferrer" href="https://last.fm/user/beat80">
                   <img class="Link-icon" src={lastFmIcon} alt="Last.fm Icon" />
