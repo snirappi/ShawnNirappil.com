@@ -77,8 +77,15 @@ a:visited {
 }
 
 .Blog-post {
+  word-wrap: break-word;
+  text-align: left;
   margin-left: 15vw;
   margin-right: 15vw; 
+}
+
+.Border-box {
+  border-style: solid;
+
 }
 
 .Credits {
