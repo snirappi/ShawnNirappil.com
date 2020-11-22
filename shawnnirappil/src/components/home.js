@@ -7,6 +7,12 @@ class Home extends Component {
     constructor(props) {
         super();
         this.tweets = [
+            'How self directed can you be?',
+            'Opportunity is everywhere for those with the eyes to see',
+            'Human interaction done right is therapeutic - but not therapy',
+            'What we see is not what we get. Reality on a fundamental level is arranged energy, emitting vibrations and frequencies',
+            'Reality is negotiated',
+            'Cynicism is a cry for help',
             'Eat dirt until you know why you are eating dirt',
             'Intuition is the original Machine Learning',
             'The more I get in tune with myself, the more I see myself in others',
