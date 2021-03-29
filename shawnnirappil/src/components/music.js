@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import albumsImage from '../static/albums.jpg';
 import '../App.css';
 
 class Music extends Component {
@@ -12,7 +11,7 @@ class Music extends Component {
                 </div>
                 <div class="Albums">
                     <h3>Albums I've Been Listening To</h3>                    
-                    <img class="Albums Border-box" src={albumsImage} alt="Albums" />
+                    <img class="Albums Border-box" src="https://tapmusic.net/collage.php?user=beat80&type=7day&size=3x3&caption=true" alt="Albums" />
                 </div>
                 <div class="Dance-section">
                     <h3>Dance Music</h3>
