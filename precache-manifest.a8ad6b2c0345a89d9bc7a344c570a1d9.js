@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1d110fe407ef4abe26ee946902704e7c",
+    "revision": "00d5fd1322d2453e2f701c9defa0e877",
     "url": "/ShawnNirappil.com/index.html"
   },
   {
-    "revision": "637efb1e5b768a41ba27",
+    "revision": "2b78a9bbd234526111e0",
     "url": "/ShawnNirappil.com/static/css/main.e0273cc9.chunk.css"
   },
   {
-    "revision": "76f7f1908d4eb2f42ab2",
-    "url": "/ShawnNirappil.com/static/js/2.def387c4.chunk.js"
+    "revision": "cb12af3825fc9e66650d",
+    "url": "/ShawnNirappil.com/static/js/2.efbab60a.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/ShawnNirappil.com/static/js/2.def387c4.chunk.js.LICENSE.txt"
+    "url": "/ShawnNirappil.com/static/js/2.efbab60a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "637efb1e5b768a41ba27",
-    "url": "/ShawnNirappil.com/static/js/main.6cb1b54f.chunk.js"
+    "revision": "2b78a9bbd234526111e0",
+    "url": "/ShawnNirappil.com/static/js/main.cf3d3183.chunk.js"
   },
   {
     "revision": "95e03e3582451951d07f",
@@ -26,10 +26,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "856b8414da1fe80a816cbe1d983c248a",
     "url": "/ShawnNirappil.com/static/media/ShawnNirappilResume.856b8414.pdf"
-  },
-  {
-    "revision": "b85961aee77a3e6fe9d0317b098584bf",
-    "url": "/ShawnNirappil.com/static/media/albums.b85961ae.jpg"
   },
   {
     "revision": "0b0a72b7dae474ec18e7a9e9fd2fd96c",
