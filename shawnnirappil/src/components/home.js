@@ -7,6 +7,18 @@ class Home extends Component {
     constructor(props) {
         super();
         this.tweets = [
+            'Every song you sing is a prayer',
+            'Vision is remembering the future',
+            'Some have opinions, others are opinions',
+            'Spacetime is the canvas, your psyche is the palette',
+            'Pessimism invites misfortune',
+            'The void of mystery is filled with your reflection',
+            'Spacetime is the final frontier',
+            'Kill Pretense',
+            '"What Do I Want?" is the cornerstone question of self-discovery',
+            'You’ll throw your life away for validation',
+            'Heroin is all around us',
+            'Those who regularly assume malicious intent are regularly malicious',
             'How self directed can you be?',
             'Opportunity is everywhere for those with the eyes to see',
             'Human interaction done right is therapeutic - but not therapy',
