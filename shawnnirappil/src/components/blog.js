@@ -22,10 +22,14 @@ class Blog extends Component {
             .catch(error => console.log(error));
     }
     jumpToBlogPost() {
-        if(document.getElementById(window.location.href.split("/").pop())){
-            document.getElementById(window.location.href.split("/").pop()).scrollIntoView();
-        } else {
-            window.location = window.location.href.substring(0, window.location.href.lastIndexOf("/"));
+        var re = /(.*\/blog\/)(.*)/
+        var split = re.exec(window.location.href);
+        if(split) {
+            if(split[2] && document.getElementById(split[2]) !== null){
+                document.getElementById(split[2]).scrollIntoView();
+            } else if(split[1]) {
+                window.location = split[1];
+            }
         }
     }
     render() {
