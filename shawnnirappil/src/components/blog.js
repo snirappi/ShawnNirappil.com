@@ -17,8 +17,16 @@ class Blog extends Component {
             )
             .then(res => {
                 this.setState({ posts: res.data.posts });
+                this.jumpToBlogPost();
             })
             .catch(error => console.log(error));
+    }
+    jumpToBlogPost() {
+        if(document.getElementById(window.location.href.split("/").pop())){
+            document.getElementById(window.location.href.split("/").pop()).scrollIntoView();
+        } else {
+            window.location = window.location.href.substring(0, window.location.href.lastIndexOf("/"));
+        }
     }
     render() {
         return (

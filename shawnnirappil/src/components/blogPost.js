@@ -6,7 +6,7 @@ class BlogPost extends Component {
         if (this.props.post) {
             return (
                 <div>
-                    <h1>{this.props.post.title}</h1>
+                    <h1 id={this.props.post.slug}><a href={"#blog/" + this.props.post.slug}>{this.props.post.title}</a></h1>
                     <h5>{new Intl.DateTimeFormat("en-US", {
                         year: "numeric",
                         month: "long", 
