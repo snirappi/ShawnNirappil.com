@@ -15,6 +15,8 @@ import lastFmIcon from './icons/lastfm.svg';
 import lastFmIconFilled from './icons/lastfm-filled.svg';
 import linkedInIcon from './icons/linkedin.svg';
 import linkedInIconFilled from './icons/linkedin-filled.svg';
+import instagramIcon from './icons/instagram.svg';
+import instagramIconFilled from './icons/instagram-filled.svg';
 
 import './App.css';
 
@@ -48,6 +50,12 @@ class App extends Component {
                 <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/nappysama">
                   <img class="Link-icon" src={soundCloudIcon} alt="Soundcloud Icon" />
                   <img class="Hover-icon" src={soundCloudIconFilled} alt="Soundcloud Icon" />
+                </a>
+              </div>
+              <div class="Icon-box">
+                <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/shawnnirappil">
+                  <img class="Link-icon" src={instagramIcon} alt="Instagram Icon" />
+                  <img class="Hover-icon" src={instagramIconFilled} alt="Instagram Icon" />
                 </a>
               </div>
               <div class="Icon-box">
