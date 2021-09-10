@@ -24,10 +24,6 @@ class Music extends Component {
                         <iframe class="Youtube" title="Dance Singles" width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLnLjHLHuZmGJnkEgPssrwsaM3nBp1cKeb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
-                <div>
-                    <h3>My Taste</h3>
-                    <p>I have found myself all over the musical spectrum. These days, I primarily listen to Techno, Baroque Pop, and Alternative Pop.</p>
-                </div>
             </div>
         );
     }
