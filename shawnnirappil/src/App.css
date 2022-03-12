@@ -165,6 +165,11 @@ a:visited {
   height: 100%;
 }
 
+.Return-link {
+  font-weight: bold;
+  cursor: pointer;
+}
+
 .Soundcloud {
   max-width: 900px;
 }

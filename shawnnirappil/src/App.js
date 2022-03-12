@@ -24,60 +24,60 @@ class App extends Component {
   render() {
     return (
       <HashRouter basename='/'>
-        <div class="Overview">
-          <header class="Header">
-            <h1 class="Header-title"><Link to={'/'} >Shawn Nirappil</Link></h1>
-            <h2 class="Header-title"><Link to={'/blog'} >Blog</Link></h2>
-            <h2 class="Header-title"><Link to={'/music'} >Music</Link></h2>
-            <h2 class="Header-title"><Link to={'/resume'} >Resume</Link></h2>
-            <div class="Header-border" />
+        <div className="Overview">
+          <header className="Header">
+            <h1 className="Header-title"><Link to={'/'} >Shawn Nirappil</Link></h1>
+            <h2 className="Header-title"><Link to={'/blog'} >Blog</Link></h2>
+            <h2 className="Header-title"><Link to={'/music'} >Music</Link></h2>
+            {/*<h2 className="Header-title"><Link to={'/resume'} >Resume</Link></h2>*/}
+            <div className="Header-border" />
           </header>
           <Switch>
             <Route exact path='/' component={Home} />
-            <Route path='/blog' component={Blog} />
+            <Route path='/blog' render={() => <Blog key={Date.now()}/>} />
             <Route path='/music' component={Music} />
-            <Route path='/resume' component={Resume} />
+            {/*<Route path='/resume' component={Resume} />*/}
           </Switch>
-          <footer class="Footer">
-            <div class="Icon-section">
-              <div class="Icon-box">
+          <footer className="Footer">
+            <div className="Icon-section">
+              <div className="Icon-box">
                 <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/ShawnNirappil">
-                  <img class="Link-icon" src={twitterIcon} alt="Twitter Icon" />
-                  <img class="Hover-icon" src={twitterIconFilled} alt="Twitter Icon" />
+                  <img className="Link-icon" src={twitterIcon} alt="Twitter Icon" />
+                  <img className="Hover-icon" src={twitterIconFilled} alt="Twitter Icon" />
                 </a>
               </div>
-              <div class="Icon-box">
+              <div className="Icon-box">
                 <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/nappysama">
-                  <img class="Link-icon" src={soundCloudIcon} alt="Soundcloud Icon" />
-                  <img class="Hover-icon" src={soundCloudIconFilled} alt="Soundcloud Icon" />
+                  <img className="Link-icon" src={soundCloudIcon} alt="Soundcloud Icon" />
+                  <img className="Hover-icon" src={soundCloudIconFilled} alt="Soundcloud Icon" />
                 </a>
               </div>
-              <div class="Icon-box">
+              <div className="Icon-box">
                 <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/shawnnirappil">
-                  <img class="Link-icon" src={instagramIcon} alt="Instagram Icon" />
-                  <img class="Hover-icon" src={instagramIconFilled} alt="Instagram Icon" />
+                  <img className="Link-icon" src={instagramIcon} alt="Instagram Icon" />
+                  <img className="Hover-icon" src={instagramIconFilled} alt="Instagram Icon" />
                 </a>
               </div>
-              <div class="Icon-box">
+              <div className="Icon-box">
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/snirappi">
-                  <img class="Link-icon" src={githubIcon} alt="Github Icon" />
-                  <img class="Hover-icon" src={githubIconFilled} alt="Github Icon" />
+                  <img className="Link-icon" src={githubIcon} alt="Github Icon" />
+                  <img className="Hover-icon" src={githubIconFilled} alt="Github Icon" />
                 </a>
               </div>              
-              <div class="Icon-box">
+              <div className="Icon-box">
                 <a target="_blank" rel="noopener noreferrer" href="https://last.fm/user/beat80">
-                  <img class="Link-icon" src={lastFmIcon} alt="Last.fm Icon" />
-                  <img class="Hover-icon" src={lastFmIconFilled} alt="Last.fm Icon" />
+                  <img className="Link-icon" src={lastFmIcon} alt="Last.fm Icon" />
+                  <img className="Hover-icon" src={lastFmIconFilled} alt="Last.fm Icon" />
                 </a>
               </div>
-              <div class="Icon-box">
+              <div className="Icon-box">
                 <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/shawn-nirappil-81b72214a/">
-                  <img class="Link-icon" src={linkedInIcon} alt="LinkedIn Icon" />
-                  <img class="Hover-icon" src={linkedInIconFilled} alt="LinkedIn Icon" />
+                  <img className="Link-icon" src={linkedInIcon} alt="LinkedIn Icon" />
+                  <img className="Hover-icon" src={linkedInIconFilled} alt="LinkedIn Icon" />
                 </a>
               </div>
             </div>
-            <p class="Credits">Icons made by <a target="_blank" rel="noopener noreferrer" href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a target="_blank" rel="noopener noreferrer" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+            <p className="Credits">Icons made by <a target="_blank" rel="noopener noreferrer" href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a target="_blank" rel="noopener noreferrer" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
           </footer>
         </div>
       </HashRouter>
